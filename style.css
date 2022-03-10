@@ -37,30 +37,31 @@ table td{
 }
 
 
-#title {
+#main-title {
     margin-top: 10px;
     font-size: 200px;
 }
 
-#subtitle {
+#main-subtitle {
     font-size: 100px;    
 }
 
-#book-title {
+.chapter #book-title {
     font-size: 100px;
 }
 
-#chapter-title {
+.chapter #chapter-title {
     font-size: 150px;
 }
 
-.main {
+.menu {
+    display: inline-block;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 18px;
-    line-height: 27px;
 }
 
-.main.text {
+.main {
+    font-size: 18px;
+    line-height: 27px;
     width: 700px;
     margin: 0 auto;
     text-align: justify;

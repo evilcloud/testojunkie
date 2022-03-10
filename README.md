@@ -1,6 +1,6 @@
 # TESTO READINGS
 
-![image](https://user-images.githubusercontent.com/43460664/157572343-761e2e7f-2f01-4917-b14f-e5b08f668541.png)
+![image](media/TESTO_JUNKIE_image_1.png)
 
 TESTO JUNKIE: SEX, DRUGS, AND BIOPOLITICS IN THE PHARMACOPORNOGRAPHIC ERA is a book by Paul B. Preciado on the topics of new manifestations of gender identity though the modern paranoia of institutional control over body and disrourse. A historic exploration and experimental strategies of dealing with the gendered self, even at the expense of own well being. The
 

@@ -1,15 +1,17 @@
 * {
+    --loud-color: red;
+    --fluid-color: black;
+    --background-color: white;
     margin: 0;
     padding: 0;
-    /* transform: rotate(0.1deg); */
 }
 
 body {
-  background-color: white;
+  background-color: var(--background-color);
 }
 
 .header {
-    color: red;
+    color:var(--loud-color);
     text-transform: uppercase;
     text-align: center;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -20,11 +22,19 @@ body {
 }
 
 h2 {
-    color: black;
+    color: var(--fluid-color);
     /* text-align: center; */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri;
     margin: 20px;
     margin-top: 50px;
+}
+
+h3 {
+    color: var(--fluid-color);
+    /* text-align: center; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri;
+    margin-top: 30px;
+    /* margin-top: 30px; */
 }
 
 table {
@@ -60,6 +70,7 @@ table td{
 }
 
 .main {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 18px;
     line-height: 27px;
     width: 700px;
@@ -74,11 +85,20 @@ table td{
 
 .main li {
     margin: 0 auto;
+    margin-top: 20px;
     margin-left: 50px;
     width: 500px;
     line-height: 27px;
 }
 
+figure {
+    margin: 20px;
+}
+
+figure h6 {
+    font-size: small;
+    font-style: italic;
+}
 
 #chapters {
   position: relative;
@@ -89,10 +109,10 @@ table td{
 }
 
 #chapters a {
-  background: red;
-  border: 1px solid red;
+  background: var(--loud-color);
+  border: 1px solid var(--loud-color);
   border-radius: 0pt;
-  color: white;
+  color: var(--background-color);
   display: inline-block;
   margin: 10px;
   padding: 50px;
@@ -100,12 +120,23 @@ table td{
 }
 
 #chapters a:hover {
-  background: white;
-  border: 1px solid red;
-  color: red;
+  background: var(--background-color);
+  border: 1px solid var(--loud-color);
+  color: var(--loud-color);
 }
 
+
 .chapter-header {
-    color: red;
-    font-
+    color: var(--loud-color);
+}
+
+.first-letter {
+    color: var(--background-color);
+    background-color: var(--loud-color);
+    border-radius: 2px;
+    box-shadow: 3px 3px 0 var(--fluid-color);
+    font-size: 250%;
+    padding: 6px 3px;
+    margin-right: 6px;
+    float: left;
 }
